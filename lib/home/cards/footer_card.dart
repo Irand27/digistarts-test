@@ -21,7 +21,7 @@ class FooterCard extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                '',
+                description,
                 style: TextStyle(
                     decoration: TextDecoration.none,
                     color: ThemeColors.black(context),
@@ -29,7 +29,7 @@ class FooterCard extends StatelessWidget {
                     fontWeight: FontWeight.bold),
               ),
               Text(
-                '',
+                value.toString(),
                 style: TextStyle(
                     decoration: TextDecoration.none,
                     color: ThemeColors.black(context),
@@ -48,7 +48,7 @@ class FooterCard extends StatelessWidget {
       padding: const EdgeInsets.only(top: 10, left: 35),
       child: Container(
         decoration: BoxDecoration(
-            color: ThemeColors.scaffoldBackground(context),
+            color: Colors.grey[300],
             borderRadius: BorderRadius.only(
               topLeft: Radius.circular(12),
               bottomLeft: Radius.circular(12),

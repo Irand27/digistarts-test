@@ -6,11 +6,11 @@ class ThemeColors {
   }
 
   static Color black(BuildContext context) {
-    return Theme.of(context).colorScheme.background;
+    return Colors.grey[800];
   }
 
   static Color scaffoldBackground(BuildContext context) {
-    return Theme.of(context).scaffoldBackgroundColor;
+    return Colors.grey[300];
   }
 
   static Color accent(BuildContext context) {
