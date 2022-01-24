@@ -6,11 +6,11 @@ import 'package:flutter/material.dart';
 
 class StatisticsCard extends StatelessWidget {
   final String title;
-  // final Chart graph;
+  final Chart graph;
   final List<Widget> footerCardList;
   const StatisticsCard(
     this.title,
-    // this.graph,
+    this.graph,
     this.footerCardList, {
     Key key,
   }) : super(key: key);
@@ -58,7 +58,7 @@ class StatisticsCard extends StatelessWidget {
       padding: const EdgeInsets.symmetric(
           vertical: BoxSpacingAlias.small, horizontal: BoxSpacingAlias.large),
       child: SizedBox(
-        // child: graph,
+        child: graph,
         height: 200,
       ),
     );

@@ -12,4 +12,8 @@ class ThemeColors {
   static Color scaffoldBackground(BuildContext context) {
     return Theme.of(context).scaffoldBackgroundColor;
   }
+
+  static Color accent(BuildContext context) {
+    return Theme.of(context).accentColor;
+  }
 }
