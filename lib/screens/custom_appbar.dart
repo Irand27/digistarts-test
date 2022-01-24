@@ -4,6 +4,8 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      centerTitle: true,
+      title: Text('Dados do Covid-19'),
       backgroundColor: Colors.blue[700],
       elevation: 0.0,
       leading: IconButton(

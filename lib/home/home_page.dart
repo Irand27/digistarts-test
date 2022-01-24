@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 StatisticsCard(
-                  'Dados do Covid-19',
+                  'Maior índice de confirmações',
                   ChartsBar(barData: [
                     ChartSampleData(
                         x: 2006, y: 16.219, secondSeriesYValue: 10.655),
