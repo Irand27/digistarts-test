@@ -1,5 +1,6 @@
-import 'package:digistarts_test/alias/border_radius.dart';
-import 'package:digistarts_test/alias/box_spacing.dart';
+import 'package:digistarts_test/theme/alias/border_radius.dart';
+import 'package:digistarts_test/theme/alias/box_spacing.dart';
+import 'package:digistarts_test/theme/colors.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -9,7 +10,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.grey,
+        color: ThemeColors.paper(context),
         borderRadius: BorderRadius.circular(BorderRadiusAlias.medium),
       ),
       margin: EdgeInsets.symmetric(
